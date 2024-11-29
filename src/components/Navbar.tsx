@@ -19,12 +19,12 @@ const Navbar = () => {
           </div>
           
           <div className="flex items-center space-x-4">
-            <button className="px-4 py-2 text-primary hover:text-primary-dark transition-colors">
+            <Link to="/signin" className="px-4 py-2 text-primary hover:text-primary-dark transition-colors">
               Sign In
-            </button>
-            <button className="px-4 py-2 bg-primary text-white rounded-lg hover:bg-primary-dark transition-colors">
+            </Link>
+            <Link to="/signup" className="px-4 py-2 bg-primary text-white rounded-lg hover:bg-primary-dark transition-colors">
               Get Started
-            </button>
+            </Link>
           </div>
         </div>
       </div>
