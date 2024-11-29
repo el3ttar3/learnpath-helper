@@ -7,19 +7,19 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center space-x-2">
-            <Zap className="w-6 h-6 text-primary" />
-            <span className="text-2xl font-bold text-primary">Top-Up</span>
+            <Zap className="w-6 h-6 text-gray-900 opacity-80" />
+            <span className="text-2xl font-bold text-gray-900 opacity-80">Top-Up</span>
           </Link>
           
           <div className="hidden md:flex items-center space-x-8">
-            <Link to="/" className="text-text-primary hover:text-primary transition-colors">Home</Link>
-            <Link to="/paths" className="text-text-primary hover:text-primary transition-colors">Learning Paths</Link>
-            <Link to="/courses" className="text-text-primary hover:text-primary transition-colors">Courses</Link>
-            <Link to="/events" className="text-text-primary hover:text-primary transition-colors">Events</Link>
+            <Link to="/" className="text-gray-900 hover:text-primary transition-colors">Home</Link>
+            <Link to="/paths" className="text-gray-900 hover:text-primary transition-colors">Learning Paths</Link>
+            <Link to="/courses" className="text-gray-900 hover:text-primary transition-colors">Courses</Link>
+            <Link to="/events" className="text-gray-900 hover:text-primary transition-colors">Events</Link>
           </div>
           
           <div className="flex items-center space-x-4">
-            <Link to="/signin" className="px-4 py-2 text-primary hover:text-primary-dark transition-colors">
+            <Link to="/signin" className="px-4 py-2 text-gray-900 hover:text-primary transition-colors">
               Sign In
             </Link>
             <Link to="/signup" className="px-4 py-2 bg-primary text-white rounded-lg hover:bg-primary-dark transition-colors">
