@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Zap } from "lucide-react";
 
 const Navbar = () => {
   return (
@@ -6,7 +7,8 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center space-x-2">
-            <span className="text-2xl font-bold text-primary">EduPath</span>
+            <Zap className="w-6 h-6 text-primary" />
+            <span className="text-2xl font-bold text-primary">Top-Up</span>
           </Link>
           
           <div className="hidden md:flex items-center space-x-8">
